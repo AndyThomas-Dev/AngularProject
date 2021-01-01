@@ -1,5 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Hero } from './hero';
+
+// Gets the static mock heroes set
+// The service then provides these view the methods
 import { HEROES } from './mock-heroes';
 import { MessageService } from './message.service';
 
@@ -21,7 +24,7 @@ export class HeroService {
     this.messageService.add('HeroService: fetched heroes');
     return of(HEROES);
   }
-  
+
   // getHero() has an asynchronous signature. It returns a mock hero as an Observable, using the RxJS of() function.
   getHero(id: number): Observable<Hero> {
     // TODO: send the message _after_ fetching the hero
