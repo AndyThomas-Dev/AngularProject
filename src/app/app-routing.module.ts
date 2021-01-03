@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HeroesComponent } from './heroes/heroes.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
-
+import { TrumpsComponent } from './trumps/trumps.component';
 // In Angular, the best practice is to load and configure the router in a separate, top-level module that is dedicated to routing and imported by the root AppModule.
 
 // A typical Angular Route has two properties:
@@ -16,6 +16,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 const routes: Routes = [
   { path: 'heroes', component: HeroesComponent },
   { path: 'dashboard', component: DashboardComponent },
+  { path: 'toptrumps', component: TrumpsComponent },
 
   // To make the app navigate to the dashboard automatically, add the following route to the routes array.
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
