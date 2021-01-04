@@ -1,7 +1,10 @@
 # Angular Project
+## Please note this is currently still a work in progress.
 A brief project pursued with the express purpose of improving my understanding of the Angular.js framework.
 
-Much of the project has been constructed in line with [this tutorial](https://angular.io/tutorial/toh-pt1) from Angular.io.
+Initially the project was constructed in line with [this tutorial](https://angular.io/tutorial/toh-pt1) from Angular.io.
+
+Once completed, I then expanded on it to add my own features. 
 
 ## Commands
 The project can be run by going into the folder and using the command:
@@ -9,3 +12,6 @@ The project can be run by going into the folder and using the command:
 ```
 ng serve
 ```
+
+## Top Trumps
+The first additional feature I added was top trumps. The idea is based off the
