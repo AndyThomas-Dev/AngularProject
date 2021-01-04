@@ -5,15 +5,20 @@
     <h2>{{hero.name | uppercase}} Details</h2>
     <div><span>id: </span>{{hero.id}}</div>
     <div><span>power: </span>{{hero.power}}</div>
+    <br>
+
     <div>
-      <label>name:
+      <label>Name:
         <input [(ngModel)]="hero.name" placeholder="name"/>
       </label>
-      <label>power:
+      <br>
+      <label>Power:
         <input [(ngModel)]="hero.power" placeholder="power"/>
       </label>
     </div>
   
+  <br>
+
   <button (click)="goBack()">go back</button>
 
   </div>

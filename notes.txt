@@ -1,1 +1,2 @@
-1. Add new traits for heroes
+1. Add new traits for heroes [x]
+2.
