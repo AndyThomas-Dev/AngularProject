@@ -1,10 +1,11 @@
 /* HeroesComponent's private CSS styles */
 .heroes {
-    margin: 0 0 2em 0;
+    margin: 0 0 1em 0;
     list-style-type: none;
     padding: 0;
     width: 15em;
   }
+  
   .heroes li {
     cursor: pointer;
     position: relative;
@@ -13,8 +14,9 @@
     margin: .5em;
     padding: .3em 0;
     height: 3.8em;
-    border-radius: 4px;
+    border-radius: 2px;
   }
+
   .heroes li:hover {
     color: #607D8B;
     background-color: #DDD;
@@ -38,6 +40,21 @@
     position: relative;
     left: -1px;
     top: -4px;
+    height: 3.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }
+
+  .heroes .detail {
+    display: inline-block;
+    font-size: small;
+    color: rgb(3, 2, 2);
+    /* padding: 0.8em 0.7em 0 0.7em; */
+    /* background-color: #EEE; */
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: 4px;
     height: 3.8em;
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
