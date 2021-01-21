@@ -14,4 +14,4 @@ ng serve
 ```
 
 ## Top Trumps
-The first additional feature I added was top trumps, based off the popular card game.
+The first additional feature I added was top trumps, based off the popular card game. This is currently still a work in progress.
